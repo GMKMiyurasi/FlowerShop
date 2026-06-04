@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LILY LANE</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <style>
+        body 
+		{
+            font-family: Arial, sans-serif;
+            background-color: lightblue;
+            color: black;
+            margin: 0;
+            padding: 0;
+            background-image: url("https://cdn.create.vista.com/api/media/small/244376840/stock-photo-beautiful-smiling-female-florist-arranging-bouquet-flower-shop");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            opacity: 0.8; 
+        }
+        
+        header 
+		{
+            background-color: rgba(173, 216, 230, 0.8); 
+            color: pink;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 
+		{
+            margin: 0;
+        }
+        
+        nav 
+		{
+            background-color: rgba(255, 192, 203, 0.8); 
+            color: black;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        nav a 
+		{
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        nav a:hover 
+		{
+            text-decoration: underline;
+        }
+        
+        section 
+		{
+            padding: 20px;
+            text-align: center;
+            position: relative; 
+        }
+        
+        .banner 
+		{
+            background-color: rgba(255, 255, 255, 0.8); 
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px; 
+        }
+        
+        .center-img 
+		{
+            max-width: 20%;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            opacity: 200;
+            border: 4px solid green; 
+        }
+        
+        .text-banner 
+		{
+            margin-top: 20px;
+        }
+        
+        .occasion-link 
+		{
+            display: block;
+            margin-bottom: 10px;
+            color: black;
+            background-color: rgba(255, 255, 255, 0.5); 
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 8px 15px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        
+        .occasion-link:hover 
+		{
+            background-color: rgba(255, 255, 255, 0.7); 
+        }
+        
+        footer 
+		{
+            background-color: rgba(255, 192, 203, 0.8); 
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        .navigation-buttons 
+		{
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .navigation-buttons a 
+		{
+            margin-left: 10px;
+            color: black;
+            background-color: rgba(255, 255, 255, 0.5);
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 8px 15px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        
+        .navigation-buttons a:hover 
+		{
+            background-color: rgba(255, 255, 255, 0.7); 
+        }
+        
+        .product img 
+		{
+            width: 100px; 
+            height: auto; 
+        }
+        
+        .add-to-cart 
+		{
+            background-color: rgba(255, 0, 0, 0.8);
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .add-to-cart:hover 
+		{
+            background-color: rgba(255, 0, 0, 1);
+        }
+		
+		.social-icons 
+		{
+            text-align: center; 
+            margin-top: 20px; 
+        }
+
+        .social-icons a 
+		{
+            margin: 0 10px; 
+        }
+		
+		.social-icons a:hover 
+		{
+            color: white; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>LILY LANE</h1>
+    </header>
+    
+    <nav>
+        <a href="Online Flower Shop Website_5455.html">Home</a>
+        <a href="about.html">About</a>
+        <a href=" ">Shop</a>
+        <a href="specialOffers.html">Special Offers</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    
+    <section id="shop">
+        <h1>Welcome to Our Flower Shop</h1>
+        <br></br>
+        <div class="content">
+            <div class="banner">
+                <div class="text-banner" style="text-align: center;">
+                    <p>Discover a wide variety of beautiful flowers for every occasion.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2>Occasions</h2>
+        
+        <!-- Birthday Occasion -->
+        <div class="shop">
+            <a href="specific_products.html?occasion=birthday" class="occasion-link">Birthday</a>
+            <p>Bright and cheerful blooms to make their day extra special.</p>
+            <div class="products">
+                <h3>Featured Products</h3>
+                <div class="product">
+                    <img src="C:\Users\Kethmi\Desktop\5455\FlowerShopPics\RadiantRosesBouquet.jpg" alt="Radiant Roses Bouquet">
+                    <h4>Radiant Roses Bouquet</h4>
+                    <p>Price: Rs.7500.00</p>
+                    <button class="add-to-cart" onclick="redirectToCheckout()">Add to Cart</button>
+					<br></br>
+                </div>
+                <div class="product">
+                    <img src="C:\Users\Kethmi\Desktop\5455\FlowerShopPics\LivelyLililiesArrangement.jpg" alt="Lively Lilies Arrangement">
+                    <h4>Lively Lilies Arrangement</h4>
+                    <p>Price: Rs.6500.00</p>
+                    <button class="add-to-cart" onclick="redirectToCheckout()">Add to Cart</button>
+					<br></br>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Anniversary Occasion -->
+        <div class="shop">
+            <a href="specific_products.html?occasion=anniversary" class="occasion-link">Anniversary</a>
+            <p>Romantic roses and elegant orchids for everlasting love.</p>
+            <div class="products">
+                <h3>Featured Products</h3>
+                <div class="product">
+                    <img src="C:\Users\Kethmi\Desktop\5455\FlowerShopPics\EternalLoveRoseBouquet.jpg" alt="Red Rose">
+                    <h4>Eternal Love Rose Bouquet</h4>
+                    <p>Price: Rs.9500.00</p>
+                    <button class="add-to-cart" onclick="redirectToCheckout()">Add to Cart</button>
+					<br></br>
+                </div>
+                <div class="product">
+                    <img src="C:\Users\Kethmi\Desktop\5455\FlowerShopPics\OrchidElegance.jpg" alt="Orchid Elegance">
+                    <h4>Orchid Elegance</h4>
+                    <p>Price: Rs.5500.00</p>
+                    <button class="add-to-cart" onclick="redirectToCheckout()">Add to Cart</button>
+					<br></br>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Thank You Occasion -->
+        <div class="shop">
+            <a href="specific_products.html?occasion=thank_you" class="occasion-link">Thank You</a>
+            <p>Express gratitude with a thoughtful bouquet.</p>
+            <div class="products">
+                <h3>Featured Products</h3>
+                <div class="product">
+                    <img src="C:\Users\Kethmi\Desktop\5455\FlowerShopPics\GratefulGerberaDaisies.jpg" alt="Grateful Gerbera Daisies">
+                    <h4>Grateful Gerbera Daisies</h4>
+                    <p>Price: Rs.4500.00</p>
+                    <button class="add-to-cart" onclick="redirectToCheckout()">Add to Cart</button>
+				    <br></br>
+                </div>
+                <div class="product">
+                    <img src="C:\Users\Kethmi\Desktop\5455\FlowerShopPics\AppreciationAnthurium.jpg" alt="Appreciation Anthurium">
+                    <h4>Appreciation Anthurium</h4>
+                    <p>Price: Rs.2000.00</p>
+                    <button class="add-to-cart" onclick="redirectToCheckout()">Add to Cart</button>
+					<br></br>
+                </div>
+            </div>
+        </div>
+        
+        <!-- New Baby Occasion -->
+        <div class="shop">
+            <a href="specific_products.html?occasion=new_baby" class="occasion-link">New Baby</a>
+            <p>Welcome the little one with delicate pastels.</p>
+            <div class="products">
+                <h3>Featured Products</h3>
+                <div class="product">
+                    <img src="C:\Users\Kethmi\Desktop\5455\FlowerShopPics\Baby'sFirstBlooms.jpg" alt="Baby's First Blooms">
+                    <h4>Baby's First Blooms</h4>
+                    <p>Price: Rs.2500.00</p>
+                    <button class="add-to-cart" onclick="redirectToCheckout()">Add to Cart</button>
+					<br></br>
+                </div>
+                <div class="product">
+                    <img src="C:\Users\Kethmi\Desktop\5455\FlowerShopPics\BabyBlueOrchid.jpg" alt="Baby Blue Orchid">
+                    <h4>Baby Blue Orchid</h4>
+                    <p>Price: Rs.3000.00</p>
+                    <button class="add-to-cart" onclick="redirectToCheckout()">Add to Cart</button>
+					<br></br>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Opening Ceremony Occasion -->
+        <div class="shop">
+            <a href="specific_products.html?occasion=opening_ceremony" class="occasion-link">Opening Ceremony</a>
+            <p>Wish success and prosperity with fresh blossoms.</p>
+            <div class="products">
+                <h3>Featured Products</h3>
+                <div class="product">
+                    <img src="C:\Users\Kethmi\Desktop\5455\FlowerShopPics\ProsperityPetunias.jpg" alt="Prosperity Petunias">
+                    <h4>Prosperity Petunias</h4>
+                    <p>Price: Rs.3500.00</p>
+                    <button class="add-to-cart" onclick="redirectToCheckout()">Add to Cart</button>
+					<br></br>
+                </div>
+                <div class="product">
+                    <img src="C:\Users\Kethmi\Desktop\5455\FlowerShopPics\SuccessSunflowers.jpg" alt="Success Sunflowers">
+                    <h4>Success Sunflowers</h4>
+                    <p>Price: Rs.3000.00</p>
+                    <button class="add-to-cart" onclick="redirectToCheckout()">Add to Cart</button>
+					<br></br>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Love & Romance Occasion -->
+        <div class="shop">
+            <a href="specific_products.html?occasion=love_romance" class="occasion-link">Love & Romance</a>
+            <p>Passionate reds and soft pinks for lovebirds.</p>
+            <div class="products">
+                <h3>Featured Products</h3>
+                <div class="product">
+                    <img src="C:\Users\Kethmi\Desktop\5455\FlowerShopPics\RomanticRedRoses.jpg" alt="Romantic Red Roses">
+                    <h4>Romantic Red Roses</h4>
+                    <p>Price: Rs.6500.00</p>
+                    <button class="add-to-cart" onclick="redirectToCheckout()">Add to Cart</button>
+					<br></br>
+                </div>
+                <div class="product">
+                    <img src="C:\Users\Kethmi\Desktop\5455\FlowerShopPics\SweetheartTulips.jpg" alt="Sweetheart Tulips">
+                    <h4>Sweetheart Tulips</h4>
+                    <p>Price: Rs.5500.00</p>
+                    <button class="add-to-cart" onclick="redirectToCheckout()">Add to Cart</button>
+					<br></br>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Housewarming Occasion -->
+        <div class="shop">
+            <a href="specific_products.html?occasion=housewarming" class="occasion-link">Housewarming</a>
+            <p>Bring warmth to their new home.</p>
+            <div class="products">
+                <h3>Featured Products</h3>
+                <div class="product">
+                    <img src="C:\Users\Kethmi\Desktop\5455\FlowerShopPics\CozyCactusCollection.jpg" alt="Cozy Cactus Collection">
+                    <h4>Cozy Cactus Collection</h4>
+                    <p>Price: Rs.2500.00</p>
+                    <button class="add-to-cart" onclick="redirectToCheckout()">Add to Cart</button>
+					<br></br>
+                </div>
+                <div class="product">
+                    <img src="C:\Users\Kethmi\Desktop\5455\FlowerShopPics\HomeSweetHomeSucculents.jpg" alt="Home Sweet Home Succulents">
+                    <h4>Home Sweet Home Succulents</h4>
+                    <p>Price: Rs.3500.00</p>
+                    <button class="add-to-cart" onclick="redirectToCheckout()">Add to Cart</button>
+					<br></br>				
+                </div>
+            </div>
+        </div>
+        
+        <!-- Sympathy Occasion -->
+        <div class="shop">
+            <a href="specific_products.html?occasion=sympathy" class="occasion-link">Sympathy</a>
+            <p>Graceful arrangements to offer comfort during difficult times.</p>
+            <div class="products">
+                <h3>Featured Products</h3>
+                <div class="product">
+                    <img src="C:\Users\Kethmi\Desktop\5455\FlowerShopPics\PeacefulLiliesBasket.jpg" alt="Peaceful Lilies Basket">
+                    <h4>Peaceful Lilies Basket</h4>
+                    <p>Price: Rs.4000.00</p>
+                    <button class="add-to-cart" onclick="redirectToCheckout()">Add to Cart</button>
+					<br></br>
+                </div>
+                <div class="product">
+                    <img src="C:\Users\Kethmi\Desktop\5455\FlowerShopPics\TranquilWhiteRoses.jpg" alt="Tranquil White Roses">
+                    <h4>Tranquil White Roses</h4>
+                    <p>Price: Rs.7000.00</p>
+                    <button class="add-to-cart" onclick="redirectToCheckout()">Add to Cart</button>
+					<br></br>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Get Well Occasion -->
+        <div class="shop">
+            <a href="specific_products.html?occasion=get_well" class="occasion-link">Get Well</a>
+            <p>Uplifting flowers to brighten someone’s recovery.</p>
+            <div class="products">
+                <h3>Featured Products</h3>
+                <div class="product">
+                    <img src="C:\Users\Kethmi\Desktop\5455\FlowerShopPics\HealingHydrangeas.jpg" alt="Healing Hydrangeas">
+                    <h4>Healing Hydrangeas</h4>
+                    <p>Price: Rs.5000.00</p>
+                    <button class="add-to-cart" onclick="redirectToCheckout()">Add to Cart</button>
+					<br></br>
+                </div>
+                <div class="product">
+                    <img src="C:\Users\Kethmi\Desktop\5455\FlowerShopPics\FeelBetterSunflowers.jpg" alt="Feel Better Sunflowers">
+                    <h4>Feel Better Sunflowers</h4>
+                    <p>Price: Rs.5500.00</p>
+                    <button class="add-to-cart" onclick="redirectToCheckout()">Add to Cart</button>
+					<br></br>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section>
+        <div class="content">
+            <div class="banner">
+                <div class="text-banner"style="text-align: center;">
+                    <p>We are passionate about delivering fresh and vibrant flowers to our customers.</p>
+                </div>
+            </div>
+        </div>
+		
+		<div class="social-icons">
+            <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <br></br> 
+    </section>
+	<br></br>
+	<br></br>
+	<br></br>
+
+    <footer>
+        &copy; 2024 Flower Shop. All rights reserved.
+    </footer>
+
+    <div class="navigation-buttons">
+        <a href="about.html">Back</a>
+        <a href="specialOffers.html">Next</a>
+    </div>
+
+    <script>
+        function redirectToCheckout() 
+		{
+            window.location.href = "checkout.html";
+        }
+    </script>
+
+</body>
+</html>
+
+
+
