@@ -1,263 +1,202 @@
-<<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lily Lane</title>
+    <meta name="description" content="About Lily Lane - Your premium online flower shop">
+    <title>About Us - Lily Lane</title>
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    
-    <style>
-        body 
-		{
-            font-family: Arial, sans-serif;
-            background-color: rgba(173, 216, 230, 0.5);
-            color: black;
-            margin: 0;
-            padding: 0;
-            background-image: url("https://cdn.create.vista.com/api/media/small/244376840/stock-photo-beautiful-smiling-female-florist-arranging-bouquet-flower-shop");
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            opacity: 0.9;
-        }
-        
-        header 
-		{
-            background-color: rgba(173, 216, 230, 0.8);
-            color: pink;
-            padding: 20px;
-            text-align: center;
-        }
-        
-        h1 
-		{
-            margin: 0;
-            text-align: center;
-        }
-        
-        h2 
-		{
-            margin-top: 20px;
-            text-align: center;
-            text-decoration: underline;
-        }
-        
-        h3 
-		{
-            text-align: center;
-            text-decoration: underline;
-        }
-        
-        nav 
-		{
-            background-color: rgba(255, 192, 203, 0.8);
-            color: black;
-            padding: 10px;
-            text-align: center;
-        }
-        
-        nav a 
-		{
-            color: white;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-        
-        nav a:hover 
-		{
-            text-decoration: underline;
-        }
-        
-        section 
-		{
-            padding: 20px;
-            text-align: ;
-        }
-        
-        .center-img 
-		{
-            max-width: 25%;
-            height: 50%;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            opacity: 100;
-            border: 4px solid green; 
-        }
-        
-        .banner 
-		{
-            background-color: rgba(255, 255, 255, 0.8);
-            padding: 20px;
-            border-radius: 10px;
-        }
-        
-        .text-banner 
-		{
-            margin-top: 20px;
-        }
-        
-        footer 
-		{
-            background-color: rgba(255, 192, 203, 0.8);
-            color: white;
-            padding: 10px;
-            text-align: center;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-
-        .navigation-buttons 
-		{
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            display: flex;
-            flex-direction: row;
-        }
-        
-        .navigation-buttons a 
-		{
-            margin-left: 10px;
-            color: black;
-            background-color: rgba(255, 255, 255, 0.5);
-            border: 2px solid black;
-            border-radius: 5px;
-            padding: 8px 15px;
-            text-decoration: none;
-            transition: background-color 0.3s;
-        }
-        
-        .navigation-buttons a:hover 
-		{
-            background-color: rgba(255, 255, 255, 0.7);
-        }
-		
-		.social-icons 
-		{
-            text-align: center; 
-            margin-top: 20px; 
-        }
-
-        .social-icons a 
-		{
-            margin: 0 10px; 
-        }
-		
-		.social-icons a:hover 
-		{
-            color: white; 
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>LILY LANE</h1>
-    </header>
-    
-    <nav>
-        <a href="Online Flower Shop Website_5455.html">Home</a>
-        <a href=" ">About</a>
-        <a href="shop.html">Shop</a>
-        <a href="specialOffers.html">Special Offers</a>
-        <a href="contact.html">Contact</a>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <i class="fas fa-flower"></i>
+                    <span>Lily Lane</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link active">About</a></li>
+                    <li><a href="shop.html" class="nav-link">Shop</a></li>
+                    <li><a href="specialOffers.html" class="nav-link">Special Offers</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
     </nav>
-   
-    <section class="container">
-        <div>
-            <div class="content">
-                <div class="banner">
-                    <div class="text-banner"style="text-align: center;">
-                        <h1>About Us</h1>
-                    </div>
-                </div>
-            </div>
-            
-            <h2>Welcome to Lily Lane: Your Online Flower Shop</h2>
-            <img src="C:\Users\Kethmi\Desktop\5455\FlowerShopPics\AboutUs1.jpg" alt="Flower Shop" class="center-img">
-            
-            <div class="content">
-                <div class="banner">
-                    <p>At Lily Lane, we believe that flowers have the power to convey emotions, celebrate special moments, and brighten someone’s day. As an online flower shop, we offer a seamless and delightful experience for flower enthusiasts, whether you’re sending a bouquet to a loved one or treating yourself to a fresh arrangement.</p>
-                </div>
-            </div>
-            
-            <br></br>
-            
-            <div class="content">
-                <div class="banner">
-                    <h3>Our Services:</h3>
-                    <div class="text-banner">
-                        <ol>
-                            <li><b>Wide Selection:</b> Explore our curated collection of exquisite blooms. From elegant roses to vibrant lilies, our inventory caters to every occasion and sentiment.</li>
-                            <li><b>Same-Day Delivery:</b> Need flowers urgently? No worries! Lily Lane provides same-day delivery within our service areas. Surprise someone with a last-minute gift, express your gratitude, or celebrate life’s milestones promptly.</li>
-                            <li><b>Custom Arrangements:</b> Personalize your bouquet! Choose your favorite flowers, colors, and style. Our skilled florists will craft a unique arrangement that speaks directly to your heart.</li>
-                            <li><b>Occasion-Specific Flowers:</b></li>
-                                <ul>
-                                    <li><b>Birthday:</b> Bright and cheerful blooms to make their day extra special.</li>
-                                    <li><b>Anniversary:</b> Romantic roses and elegant orchids for everlasting love.</li>
-                                    <li><b>Thank You:</b> Express gratitude with a thoughtful bouquet.</li>
-                                    <li><b>New Baby:</b> Welcome the little one with delicate pastels</li>
-                                    <li><b>Opening Ceremony:</b> Wish success and prosperity with fresh blossoms.</li>
-                                    <li><b>Love & Romance:</b> Passionate reds and soft pinks for lovebirds.</li>
-                                    <li><b>Housewarming:</b> Bring warmth to their new home.</li>
-                                    <li><b>Sympathy:</b> Graceful arrangements to offer comfort during difficult times.</li>
-                                    <li><b>Get Well:</b> Uplifting flowers to brighten someone’s recovery.</li>
-                                </ul>
-                            <li><b>Subscription Services:</b> Join our flower subscription program! Receive regular deliveries of seasonal blooms right at your doorstep. Perfect for home decor, office spaces, or gifting.</li>
-                            <li><b>Secure Ordering:</b> Our website ensures a safe and secure shopping experience. Your personal information is protected, and transactions are encrypted.</li>
-                            <li><b>Customer Support:</b> Have questions? Our friendly customer support team is here to assist you. Reach out via chat, email, or phone.</li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-            
-            <img src="C:\Users\Kethmi\Desktop\5455\FlowerShopPics\AboutUs2.jpg" alt="Flower Shop" class="center-img">
-            
-            <div class="content">
-                <div class="banner">
-                    <div class="text-banner" style="text-align: center;">
-                        <p><b>Lily Lane—</b>where petals meet passion. Let us be your go-to destination for all things floral.🌸🌿</p>
-                    </div>
-                </div>
-            </div>
 
-            <br></br>
-            
-            <div class="content">
-                <div class="banner">
-                    <div class="text-banner"style="text-align: center;">
-                        <p>Whether it’s a birthday celebration, a heartfelt thank-you, or a simple gesture of love, Lily Lane is here to make every moment blossom beautifully.🌼✨</p>
-                    </div>
-                </div>
-            </div>
-            
-            <br></br>
-            <br></br>      
+    <!-- Hero Section -->
+    <section class="hero hero-small">
+        <div class="hero-content">
+            <h1 class="hero-title">About Lily Lane</h1>
+            <p class="hero-subtitle">Your Trusted Flower Destination</p>
         </div>
-        
-        <div class="social-icons">
-            <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
-            <a href="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
-            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
-        </div>
-        <br></br>
-        <br></br>       
     </section>
-    <br></br>
-    <br></br>
 
-    <footer>
-        &copy; 2024 Flower Shop. All rights reserved.
+    <!-- Main Content -->
+    <main class="container">
+        <!-- About Intro -->
+        <section class="about-intro">
+            <h2 class="section-title">About Us</h2>
+            <p class="section-text">
+                At Lily Lane, we believe that flowers have the power to convey emotions, celebrate special moments, and brighten someone's day. 
+                As a premium online flower shop, we offer a seamless shopping experience with carefully curated collections for every occasion.
+            </p>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services-section">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-bouquet"></i>
+                    </div>
+                    <h3>Wide Selection</h3>
+                    <p>Explore our curated collection of exquisite blooms. From elegant roses to vibrant lilies, our inventory caters to every occasion and sentiment.</p>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Same-Day Delivery</h3>
+                    <p>Need flowers urgently? No worries! Lily Lane provides same-day delivery within our service areas. Surprise someone with a last-minute gift.</p>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Custom Arrangements</h3>
+                    <p>Personalize your bouquet! Choose your favorite flowers, colors, and style. Our skilled florists will craft a unique arrangement for you.</p>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Secure Ordering</h3>
+                    <p>Our website ensures a safe and secure shopping experience. Your personal information is protected, and transactions are encrypted.</p>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h3>Subscription Services</h3>
+                    <p>Join our flower subscription program! Receive regular deliveries of seasonal blooms right at your doorstep.</p>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Customer Support</h3>
+                    <p>Have questions? Our friendly customer support team is here to assist you via chat, email, or phone.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Occasions Section -->
+        <section class="occasions-section">
+            <h2 class="section-title">Flowers for Every Occasion</h2>
+            <div class="occasions-grid">
+                <div class="occasion-box">
+                    <i class="fas fa-birthday-cake"></i>
+                    <h3>Birthday</h3>
+                    <p>Bright and cheerful blooms</p>
+                </div>
+                <div class="occasion-box">
+                    <i class="fas fa-ring"></i>
+                    <h3>Anniversary</h3>
+                    <p>Romantic and elegant</p>
+                </div>
+                <div class="occasion-box">
+                    <i class="fas fa-hand-holding-heart"></i>
+                    <h3>Thank You</h3>
+                    <p>Express your gratitude</p>
+                </div>
+                <div class="occasion-box">
+                    <i class="fas fa-baby"></i>
+                    <h3>New Baby</h3>
+                    <p>Delicate pastels</p>
+                </div>
+                <div class="occasion-box">
+                    <i class="fas fa-champagne-glasses"></i>
+                    <h3>Opening Ceremony</h3>
+                    <p>Fresh blossoms for success</p>
+                </div>
+                <div class="occasion-box">
+                    <i class="fas fa-heart"></i>
+                    <h3>Love & Romance</h3>
+                    <p>Passionate expressions</p>
+                </div>
+                <div class="occasion-box">
+                    <i class="fas fa-home"></i>
+                    <h3>Housewarming</h3>
+                    <p>Warmth for new homes</p>
+                </div>
+                <div class="occasion-box">
+                    <i class="fas fa-dove"></i>
+                    <h3>Sympathy</h3>
+                    <p>Graceful comfort</p>
+                </div>
+                <div class="occasion-box">
+                    <i class="fas fa-hospital"></i>
+                    <h3>Get Well</h3>
+                    <p>Uplifting flowers</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Closing Message -->
+        <section class="closing-section">
+            <div class="closing-card">
+                <h2>Our Promise</h2>
+                <p>Whether it's a birthday celebration, a heartfelt thank-you, or a simple gesture of love, Lily Lane is here to make every moment blossom beautifully.</p>
+                <p class="signature">Lily Lane — where petals meet passion. 🌸🌿</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Social Media Section -->
+    <section class="social-section">
+        <h2>Connect With Us</h2>
+        <div class="social-links">
+            <a href="https://www.facebook.com" class="social-icon" title="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.twitter.com" class="social-icon" title="Twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com" class="social-icon" title="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com" class="social-icon" title="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Lily Lane Flower Shop. All rights reserved.</p>
+            <p>Contact: info@lilylane.com | Phone: +94 (070) 429-3226</p>
+        </div>
     </footer>
 
-    <div class="navigation-buttons">
-        <a href="Online Flower Shop Website_5455.html">Back</a>
-        <a href="shop.html">Next</a>
-    </div>
-
+    <script src="script.js"></script>
 </body>
 </html>
